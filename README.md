@@ -9,12 +9,12 @@ Ask developer to provide following details in order to configured in Jmeter for 
 1. QueueConnectionFactory
 2. JNDI Name Request Queue: eg: "com.tibco.tiobjms.namingInitialContextFactory"
 3. JNDI properties
-   . java.naming.security.principle = userName
-   . java.naming.security.credential= password
-   . optional: if connection does not get stablish then configured following JNDI properties
-      . com.tibco.tibjms.naing.security_protocol=ssl
-      . com.tibco.tibjms.naming.ssl_vendor=j2se-default
-      . com.tibco.tibjms.naming.ssl_enable_verify_host = false
+   1. java.naming.security.principle = userName
+   2. java.naming.security.credential= password
+   3. optional: if connection does not get stablish then configured following JNDI properties
+      1. com.tibco.tibjms.naing.security_protocol=ssl
+      2. com.tibco.tibjms.naming.ssl_vendor=j2se-default
+      3. com.tibco.tibjms.naming.ssl_enable_verify_host = false
 5. URL : eg:"ssl://ttibaassmp.abcduat.com:45690
 6. Body: eg: "xml body
 7. userName
