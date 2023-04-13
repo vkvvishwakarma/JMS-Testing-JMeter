@@ -26,15 +26,21 @@ The details for configuring JMeter for testing will be provided by the developer
 To perform JMS testing with JMeter, follow these steps:
 
 Set up the JMS test environment by installing a JMS provider, creating a JMS queue or topic, and writing a JMS producer and consumer. Refer to the "Setting up JMS Test Environment".
+1. Start JMeter using jmeter.bat
 
+Eg:- Thread Group-ComponentUpdate
+
+Set Number of Threads (users): 5
+Ramp-Up Period (in seconds): 1
 1. Create a new test plan in JMeter.
 2. Add user defined variable to the test plan
 3. Http cookie manager to the test plan
 4. Http cache manager to the test plan
 5. Add a thread group to the test plan.
-6. Configure a JMS Point-to-Point Sampler for sending messages and a JMS Subscriber Sampler for receiving messages. 
-7. Add a View Results Tree Listener to the test plan to view the results of the JMeter JMS test. 
-8. Refer to the "Viewing Results with View Results Tree Listener" section.
+6. Right click on Test Plan > Add> Threads(Users)> Thread Group. Rename this Thread Group.
+7. Configure a JMS Point-to-Point Sampler for sending messages and a JMS Subscriber Sampler for receiving messages. 
+8. Add a View Results Tree Listener to the test plan to view the results of the JMeter JMS test. 
+9. Refer to the "Viewing Results with View Results Tree Listener" section.
 
 By following these steps, you can test your JMS implementation using JMeter and validate its performance and reliability.
 
