@@ -5,10 +5,12 @@ This repository contains a guide for testing Java Message Service (JMS) with JMe
 
 Getting Started
 To test JMS with JMeter, you first need to set up a JMS test environment. This involves installing a JMS provider, creating a JMS queue or topic, and writing a JMS producer and consumer. Developer will provide the details for testing.
-Ask developer to provide following details in order to configured in Jmeter for testing
+
+The details for configuring JMeter for testing will be provided by the developer, such as the QueueConnectionFactory, JNDI Name Request Queue, JNDI properties, URL, body, username, and password. For more details find as below:
+
 1. QueueConnectionFactory
 2. JNDI Name Request Queue: eg: "com.tibco.tiobjms.namingInitialContextFactory"
-3. JNDI properties
+3. Configured following in JNDI properties:
    1. java.naming.security.principle = userName
    2. java.naming.security.credential= password
    3. optional: if connection does not get stablish then configured following JNDI properties
