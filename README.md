@@ -34,7 +34,7 @@ Set up the JMS test environment by installing a JMS provider, creating a JMS que
 5. Add a thread group to the test plan.
 6. Configure a JMS Point-to-Point Sampler for sending messages and a JMS Subscriber Sampler for receiving messages. 
 7. Add a View Results Tree Listener to the test plan to view the results of the JMeter JMS test. 
-8. Refer to the "Viewing Results with View Results Tree Listener" section of the guide for more details.
+8. Refer to the "Viewing Results with View Results Tree Listener" section.
 
 By following these steps, you can test your JMS implementation using JMeter and validate its performance and reliability.
 
