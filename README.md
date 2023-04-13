@@ -37,7 +37,7 @@ Ramp-Up Period (in seconds): 1
 3. Http cookie manager to the test plan
 4. Http cache manager to the test plan
 5. Add a thread group to the test plan.
-6. Right click on Test Plan > Add> Threads(Users)> Thread Group. Rename this Thread Group.
+6. Right click on Test Plan -> Add -> Threads(Users) -> Thread Group. Rename this Thread Group.
 7. Configure a JMS Point-to-Point Sampler for sending messages and a JMS Subscriber Sampler for receiving messages. 
 8. Add a View Results Tree Listener to the test plan to view the results of the JMeter JMS test. 
 9. Refer to the "Viewing Results with View Results Tree Listener" section.
