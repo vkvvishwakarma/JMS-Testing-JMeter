@@ -33,9 +33,9 @@ Eg:- Thread Group-ComponentUpdate
 Set Number of Threads (users): 5
 Ramp-Up Period (in seconds): 1
 1. Create a new test plan in JMeter.
-2. Add user defined variable to the test plan
-3. Http cookie manager to the test plan
-4. Http cache manager to the test plan
+2. Right click on Test Plan -> Add -> user defined variable to the test plan
+3. Right click on Test Plan -> Add -> Http cookie manager to the test plan
+4. Right click on Test Plan -> Add -> Http cache manager to the test plan
 5. Add a thread group to the test plan.
 6. Right click on Test Plan -> Add -> Threads(Users) -> Thread Group. Rename this Thread Group.
 7. Configure a JMS Point-to-Point Sampler for sending messages and a JMS Subscriber Sampler for receiving messages. 
